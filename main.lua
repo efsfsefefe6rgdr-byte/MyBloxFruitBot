@@ -1,14 +1,13 @@
 -- ตั้งค่าเบื้องต้น (แก้ชื่อตัวหลักตรงนี้ได้เลย หรือไปแก้ในหน้าต่าง GUI ก็ได้)
 getgenv().MainConfig = {
-    MainAccountName = "ชื่อรหัสหลักของคุณ_ใส่ตรงนี้", -- เปลี่ยนชื่อตรงนี้!
-    AutoRandom = true,    -- เปิดออโต้สุ่มทันทีที่เข้าเกม
-    AutoDrop = true,      -- เปิดออโต้โยนทันทีที่เข้าเกม
-    AutoLeave = true      -- สุ่มเสร็จ/โยนเสร็จ ให้เกมปิดตัวเองทันที
+    MainAccountName = "Rimuru_Dkoz6i", 
+    AutoRandom = true,
+    AutoDrop = true,
+    AutoLeave = true
 }
-
 ----------------------------------------------------------------
 -- เริ่มโหลด Library สร้างหน้าต่าง (ไม่ต้องแก้ข้างล่างนี้)
-local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/jensonh02/Orion/main/source')))()
 local Window = OrionLib:MakeWindow({Name = "Chicken Farm Bot 1.0", HidePremium = false, SaveConfig = true, ConfigFolder = "FruitBotConfig"})
 
 -- หน้าหลัก (General)
