@@ -23,7 +23,7 @@ Tab:AddLabel("สถานะ: กำลังทำงาน...")
 
 -- ช่องใส่ชื่อตัวหลัก
 Tab:AddTextbox({
-	Name = "ชื่อตัวละครหลัก (Main Account)",
+	Name = "Rimuru_Dkoz6i",
 	Default = getgenv().MainConfig.MainAccountName,
 	TextDisappear = false,
 	Callback = function(Value)
